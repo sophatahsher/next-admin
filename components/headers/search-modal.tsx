@@ -129,7 +129,7 @@ export function CommandPalette() {
                     placeholder="Search or type a command"
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
-                    className="border-0 p-0 text-base shadow-none outline-none focus-visible:ring-0 bg-transparent placeholder:text-muted-foreground/60"
+                    className="bg-input:transparent border-0 p-0 text-base shadow-none outline-none focus-visible:ring-0 bg-transparent placeholder:text-muted-foreground/60"
                     autoFocus
                   />
                   <div className="ml-auto">
